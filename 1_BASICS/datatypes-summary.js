@@ -24,12 +24,27 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let obj = {
-    name : "nikhil",
-    age : 24,
+    name: "nikhil",
+    age: 24,
 }
 
-const myFunction = function(){
+const myFunction = function () {
     console.log("Hello world");
 }
 
 console.log(typeof anotherId);
+// **********************************************************************
+
+// stack (primitive)   heap(non primitive)
+
+let userone = {
+    email: "nikhil@google.com",
+    upi: "user@ybl"
+}
+console.log(userone.email);
+
+let userTwo = userone
+userTwo.email = "nikhilkumar@gmail.com"
+
+console.log(userone.email);
+console.log(userTwo.email);
