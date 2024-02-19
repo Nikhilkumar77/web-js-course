@@ -12,3 +12,4 @@ console.log(url.replace('%20', '-'));
 console.log(url.includes('liked'));
 console.log(name1.split('-'));
 console.log(name2.split(' '));
+console.log(name2.split('e'));
