@@ -3,7 +3,7 @@
 // can store any datatypes or even mixed datatypes 
 
 const myArr1 = [2, 4, 6, 8, 9]
-const myArr2 = [2, 4, 6, 8, "nikhil", 'd']
+const myArr2 = [2, 4, 6, 8, "nikhil",'d']
 
 const arr = new Array(1, 5, 78, 34)
 

@@ -1,6 +1,6 @@
 const num = 100
 console.log(num);
-const number = new Number(100.28)
+const number = new Number(100)
 console.log(number);
 console.log(number.toString());
 console.log(number.toString().length);
