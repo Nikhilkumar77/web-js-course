@@ -15,8 +15,24 @@ const student = {
 }
 
 const result  = {...school,...student}
-console.log(result);
+//console.log(result);
 
 const arr1 = Object.keys(school)
-console.log(arr1);
+//console.log(arr1);
 
+function checkAge(age) {
+  if (age >= 18) {
+    return true;
+  } else {
+    return confirm('Do you have permission from your parents?');
+  }
+}
+
+let age = prompt('How old are you?', 18);
+
+if (checkAge(age)) {
+  console.log('Access granted');
+} else {
+  console.log('Access denied');
+
+  }
