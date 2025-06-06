@@ -14,6 +14,17 @@ connectDB()
         console.log(` Server is running at port : ${process.env.PORT}`);
     })
 })
+
+   app.get('/youtube', (req,res) => {
+        res.send()
+     
+
+   } )
+
+    
+   
+
+
 .catch((err) => {
     console.log("MONGO db connection failed !!! ", err);
 })
@@ -33,6 +44,6 @@ const app = express()
 
     } catch (error) {
 
-        
+
          }
 })()
