@@ -7,7 +7,7 @@ dotenv.config({
 })
 
 
-
+// database connection code
 
 connectDB()
 .then(() => {
