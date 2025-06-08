@@ -17,9 +17,30 @@
             <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
         </ul>
    </div>
+
+   <div>
+  <button class="child">Hello</button>
+</div>
+
+<script>
+  const parent = document.querySelector("div");
+  const child = document.querySelector(".child");
+
+  parent.addEventListener("click",
+    function () {
+      console.log("Parent");
+    }
+  );
+
+  child.addEventListener("click", function () {
+    console.log("Child");
+  });
+</script>
     
 </body>
 <script>
+    
+     
    
 
     document.getElementById('owl').addEventListener('click', function(){
