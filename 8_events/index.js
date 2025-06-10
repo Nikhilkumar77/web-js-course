@@ -7,7 +7,7 @@ dotenv.config({
 })
 
 
-// database connection code
+
 
 connectDB()
 .then(() => {
@@ -21,6 +21,8 @@ connectDB()
      
 
    } )
+
+   
 
    
 .catch((err) => {
